@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.action {
+	text-decoration:none;
+	color: white;
+}
+
+a.action:hover {
+	text-decoration:none;
+	color: black;
+}
+
+
+
+.sidebar-header {
+	display: inline;
+	border-radius: 4px 25px;
+	background-color: #19FB52;/*	background-color:  #896C3D #454545 #5C919D; */
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+	padding: 20px;
+	height: 2em;
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:3em;
+	font-size: 100%;
+	font-weight: 600;
+	width:10em;
+	text-align:center;
+	opacity: 0.6;
+
+}
+   /* transform: rotate(2deg);
+    -ms-transform: rotate(2deg); /* IE 9 */
+   /* -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+
+
+   .sidebar-header:hover {
+	display: inline;
+	border-radius: 4px 25px;
+	background-color: #16e54b;/*	background-color:  #896C3D #454545 #5C919D; */
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+	padding: 20px;
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:3em;
+	font-size: 100%;
+	font-weight: 600;
+	width:10em;
+	text-align:center;
+	opacity: 0.6;
+
+}
+
+
+.sidebar-header1 {
+	display: inline;
+	border-radius: 4px 25px;
+	background-color: #19FB52;/*	background-color:  #896C3D #454545 #5C919D; */
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+	padding: 20px;
+	height: 2em;
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:3em;
+	font-size: 100%;
+	font-weight: 600;
+	width:10em;
+	text-align:center;
+
+}
+   /* transform: rotate(2deg);
+    -ms-transform: rotate(2deg); /* IE 9 */
+   /* -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+
+
+   .sidebar-header1:hover {
+	display: inline;
+	border-radius: 4px 25px;
+	background-color: #16e54b;/*	background-color:  #896C3D #454545 #5C919D; */
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+	padding: 20px;
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:3em;
+	font-size: 100%;
+	font-weight: 600;
+	width:10em;
+	text-align:center;
+
+}

@@ -1,0 +1,808 @@
+/*  
+==========================================================
+Projekt 2.1: Main style.
+==========================================================
+*/
+
+
+/* ========================== NORMALIZE (DIVERSE KOMPATIBILITET) ========================== */
+
+article, aside, figcaption, figure, footer, header, main, nav, section {
+  display: block;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border: 0;
+}
+
+
+
+
+
+/* ========================== HEADER MASTHEAD ========================== */
+.masthead {
+  padding-top: 0px;
+  background-color: transparent;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  section.logo {
+    text-align: center;
+    background-color: transparent;
+    padding: 0% 0% 5% 0%;
+    max-width: 100%;
+    height: 100px ;
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section.logo {
+    text-align: center;
+    background-color: transparent;
+    padding: 0% 0% 0% 0%;
+    max-width: 100%;
+    height: 180px ;
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  {
+  section.logo {
+    text-align: center;
+    background-color: transparent;
+    padding: 0% 0% 0% 5%;
+    max-width: 100%;
+    height: 180px ;
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (min-width: 1366px) {
+  section.logo {
+    text-align: left;
+    background-color: transparent;
+    padding: 3% 0% 0% 5%;
+    max-width: 100%;
+    height: 180px ;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  img.logo {
+  padding: 4% 0% 0% 0%;
+  opacity: 1;
+
+  }
+}
+
+@media only screen and (width: 1366px) {
+  img.logo {
+  padding: 8% 0% 0% 0%;
+  opacity: 1;
+
+  }
+}
+
+
+
+
+
+
+/* ========================== GENERELT FOR ELEMENTER ========================== */
+
+@media only screen and (min-width: 768px) {
+  body{
+    background: url(../billeder/hjortshoj.jpg) no-repeat fixed;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body { 
+  background: url(../billeder/mobilbaggrund.png) repeat ;  
+  }
+}
+
+div.page {
+  margin: 0 auto;
+  max-width: 100%; 
+}
+
+div.page2 {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+main {min-height: 800px; 
+}
+
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #16e54b;
+}
+
+
+a.forsidehover {
+  color: white;
+}
+
+p.phead {
+  font-size: 30px;
+  color: white;
+/*   -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #19FB52; */
+  text-align: center;
+}
+
+p.projekt {
+  text-align: center;
+}
+
+
+h1 h2 h3 h4 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+h1 {
+  	color: ;
+  	font-size: 2.25em;
+  	font-weight: 300;
+    text-align: center;
+}
+
+h2{
+    color: ;
+    font-size: 1.25em;
+    font-weight: 150;
+    text-align: left;
+    color: black;
+}
+
+h2.projekt{
+    color: ;
+    font-size: 1.25em;
+    font-weight: 150;
+    text-align: left;
+    color: black;
+
+}
+
+h3{
+}
+
+h4{
+}
+
+section.post-photo-full {
+  margin: 0 auto;
+	max-width: 100%;
+  text-align: center;
+}
+
+p.line {
+  border-top: 3px solid #19FB52;
+  /*margin: -2px 0px 0px 0px ;*/
+}
+
+p.line1 {
+  border-top: 10px solid #19FB52;
+  opacity: 0.8;
+  /*margin: -2px 0px 0px 0px ;*/
+}
+
+
+
+
+
+
+/* ========================== MAIN INDHOLD ========================== */
+
+section.forside { 
+    text-align: center;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+section.forside { 
+    text-align: center;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+section.forside { 
+    text-align: center;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+section.forside { 
+    text-align: center;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+section.forside { 
+    text-align: center;
+    padding-top: 10%;
+  }
+}
+
+
+section.projekt {
+  padding: 80px 0px 80px 0px;
+  margin: 0px 2% 0px 2%;
+  max-width: 100%;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 25px;
+}
+
+
+section.projekt1 {
+  padding: 30px 0px 30px 0px;
+  max-width: 100%;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+  section.projekt1 {
+    padding: 80px 0px 80px 0px;
+    margin: 0px 10px 0px 2%;
+    max-width: 61.33%;
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 25px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  section.projekt1 {
+    padding: 80px 0px 80px 0px;
+    margin: 0px 10px 0px 2%;
+    max-width: 61.33%;
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+    /* Mobil */
+  section.projekt1 {
+  padding: 30px 0px 30px 0px;
+  max-width: 100%;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Mobil */
+  section.projekt1 {
+  padding: 30px 0px 30px 0px;
+  max-width: 100%;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 25px;
+  }
+}
+
+
+
+
+article.article {
+  margin: 0px 30px 0px 30px;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+  article.article {
+    margin: 0px 80px 0px 80px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  article.article {
+    margin: 0px 80px 0px 80px;
+  }
+}
+
+
+
+article.article2 {
+  margin: 0px 30px 0px 10px;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+  article.article2 {
+    margin: 0px 80px 0px 10px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  article.article2 {
+    margin: 0px 80px 0px 10px;
+  }
+}
+
+
+article.article3 {
+  margin: 0px 30px 0px 30px;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+  article.article3 {
+    margin: 0px 80px 0px 80px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  article.article3 {
+    margin: 0px 80px 0px 50%;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 1366px) {
+  aside.aside1 {
+    position: relative ;
+    float: right;
+    margin: 0px 2% 10px 10px ;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    background: url() 100% center;
+    background-color: rgba(255,255,255, 0.8);
+    width: 30.66%;
+    border-radius: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+  aside.aside1 {
+    position: relative ;
+    float: right;
+    margin: 0px 2% 10px 10px ;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    background: url() 100% center;
+    background-color: rgba(255,255,255, 0.8);
+    width: 30.66%;
+    border-radius: 25px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+  aside.aside1 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+    position: relative;
+    text-align: left;
+    background: url() 100% center;
+    background-color: rgba(255,255,255, 0.8);
+    width: 100%;
+    border-radius: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  aside.aside1 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+    position: relative;
+    text-align: left;
+    background: url() 100% center;
+    background-color: rgba(255,255,255, 0.8);
+    width: 100%;
+    border-radius: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 768px ) {
+  article.asidearticle {
+    margin: 0px 30px 0px 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+  article.asidearticle {
+    margin: 0px 40px 0px 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px ) {
+  article.asidearticle {
+    margin: 0px 40px 0px 40px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  article.asidearticle {
+    margin: 0px 40px 0px 40px;
+  }
+}
+
+
+
+
+/* ========================== Index video forside ========================== */
+
+
+
+@media only screen and (min-width: 1024px) {
+
+
+  div.forsidehover {
+      font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+      margin: 0 auto;
+      max-width: 960px;
+      text-align: center;
+      white-space: nowrap; 
+      width: 250px; 
+      overflow: hidden; 
+      border: 0px solid #000000;
+  }
+
+  div.forsidehover2 {
+      font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+      margin: 0 auto;
+      max-width: 960px;
+      text-align: center;
+      white-space: nowrap; 
+      width: 260px; 
+      overflow: hidden; 
+      border: 0px solid #000000;
+  }
+
+  div.forsidehover:hover {
+      text-overflow: inherit;
+      overflow: visible;
+  }
+
+  div.forsidehover2:hover {
+      text-overflow: inherit;
+      overflow: visible;
+  }
+
+  a.forsidehover {
+      color: green;
+  }
+
+  a.forsidehover:hover {
+      color: white;
+      background-color: gray;
+  }
+
+  a.forsidehover:active {
+      color: yellow;
+  }
+
+}
+
+
+
+
+
+/* ========================== FitVids ========================== */
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe,
+embed,
+object {
+  max-width: 100%;
+
+}
+
+.vidcont {
+  padding: 1%;
+  margin: 0px auto;
+  background: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.vendor {
+  padding: 1%;
+  background: #19FB52;
+  margin-bottom: 0em;
+}
+
+.unsupported {
+  background: #19FB52;
+}
+
+
+
+/* ========================== Infobox ==========================
+Hentet her: http://css3.wikidot.com/blog:infobox-with-pure-css-3d-ribbon */
+
+
+.infobox-container {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.infobox {
+    width: 250px;
+    background: #424242;
+    padding: 10px 5px 5px 5px;
+    margin:10px;
+    color: #fff;
+    font-size: 90%;
+}
+.infobox h3 {
+    background: #19FB52;
+    width: 270px;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0;
+    font-size: 160%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infobox h3 {
+    position: relative;
+    left: -15px;
+}
+
+
+
+
+
+
+
+
+/* ========================== Slides ========================== */
+
+/* Slideshow. Hentet her: http://slidesjs.com/ */
+/* Prevents slides from flashing */
+#slides {
+  display:none;
+}
+
+    /* Center the slideshow */
+    .slidecon {
+      margin: 0 auto;
+    }
+
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {
+      color: #CAAC4E;
+    }
+
+    .slidesjs-next {             
+    float: right;             
+    }
+
+  .slidesjs-previous {     
+    float: left;     
+    }    
+
+  .slidesjs-pagination {
+      text-align: center;
+      padding: 0;
+  }
+
+  .slidesjs-pagination li {
+      display: inline-block;
+  }
+
+    /* Media queries for a responsive layout */
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .slidecon {
+        width: 300px;
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .slidecon {
+        width: 300px;
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .slidecon {
+        width: 800px;
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .slidecon {
+        width: 800px;
+      }
+    }
+
+
+
+
+/* ========================== Search bar ========================== */
+
+.search {
+  float: right;
+  margin: 0.5em 0.5em;
+  max-width: 100%;
+}
+
+input#s{
+  margin: 0;
+}
+
+input#s[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-size: 100%;
+}
+input#s::-webkit-search-decoration,
+input#s::-webkit-search-cancel-button {
+  display: none; /* remove the search and cancel icon */
+}
+
+/* search input field */
+input#s[type=search] {
+  background: white url(../billeder/search-icon.png) no-repeat 9px center;
+  border: solid 2px #19FB52;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input#s[type=search]:focus {
+  width: 130px;
+  background-color: green;
+  border-color: #19FB52;
+  
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+input#s:-moz-placeholder {
+  color: #19FB52;
+}
+input#s::-webkit-input-placeholder {
+  color: #19FB52;
+}
+
+/* demo B */
+.search input#s[type=search] {
+  width: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+.search input#s[type=search]:hover {
+  background-color: #19FB52;
+}
+.search input#s[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #19FB52;
+  background-color: white;
+  cursor: auto;
+}
+.search input#s:-moz-placeholder {
+  color: transparent;
+}
+.search input#s::-webkit-input-placeholder {
+  color: transparent;
+}
+
+
+
+
+
+/* ========================== CONTACT FORMS ========================== */
+
+section.contact {
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+section.contact1 {
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+/* Forms */
+label { display: block;; text-align:; margin: 1em auto auto auto; width: 75%; }
+input, select, textarea { display: block;; text-align:; margin: 1em auto auto auto; width: 75%; }
+input { border: 1px solid black; }
+textarea { border: 1px solid white; }
+input[type=radio], input[type=checkbox], input[type=submit], input[type=reset], input[type=button], input[type=image] { width: auto; }
+
+
+/* Definition lists */
+dl { width: 100%; margin: 2em 0; padding: 0; clear: both; overflow: auto; }
+dt { width: 30%; float: left; margin: 0; padding: 5px 9.9% 5px 0; border-top: 1px solid black; font-weight: bold; overflow: auto; clear: left; }
+dd { width: 60%; float: left; margin: 0; padding: 6px 0 5px 0; border-top: 1px solid black; overflow: auto; }
+
+
+
+
+
+
+
+
+/* ========================== FOOTER ========================== */
+footer.footer {
+  text-align: center;
+  font-size: small;
+  color: white;
+  background-color: #19FB52;
+  opacity: 0.8;
+}
+
+
